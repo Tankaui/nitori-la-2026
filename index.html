@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>2026 美國研修 C組行程</title>
+  <!-- 引入源泉圓體 webfont -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gensensrounded-font@1.501.0/GenSenRounded-TW.css">
   <style>
     :root {
       --primary-color: #0071e3;
@@ -16,6 +18,7 @@
       --text-sub: #4b5563;
       --bg-page: #f4f6f8;
       --card-bg: #ffffff;
+      --font-family-base: "GenSenRounded TW", "Gen泉圓體", "GenSenRounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
     }
 
     * {
@@ -24,7 +27,7 @@
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-family: var(--font-family-base);
       background-color: var(--bg-page);
       display: flex;
       justify-content: center;
@@ -45,6 +48,7 @@
 
     /* 大標題置中 */
     .main-title {
+      font-family: var(--font-family-base);
       color: var(--text-main);
       font-size: 24px;
       font-weight: 800;
@@ -55,6 +59,7 @@
 
     /* C組標題靠左對齊 */
     h2 {
+      font-family: var(--font-family-base);
       margin: 0 0 10px 0;
       color: var(--text-main);
       font-size: 20px;
@@ -65,6 +70,7 @@
 
     /* 說明區塊靠左對齊 */
     .desc {
+      font-family: var(--font-family-base);
       color: var(--text-sub);
       font-size: 14px;
       line-height: 1.6;
@@ -73,6 +79,7 @@
     }
 
     .highlight-pill {
+      font-family: var(--font-family-base);
       display: inline-block;
       background: #f1f3f5;
       color: #374151;
@@ -84,6 +91,7 @@
 
     /* 紅色時區注意事項 */
     .timezone-notice {
+      font-family: var(--font-family-base);
       color: #dc2626;
       background-color: #fef2f2;
       border: 1px solid #fee2e2;
@@ -97,6 +105,7 @@
     }
 
     .btn-main {
+      font-family: var(--font-family-base);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -120,6 +129,7 @@
     }
 
     .btn-android {
+      font-family: var(--font-family-base);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -143,6 +153,7 @@
     }
 
     .btn-action {
+      font-family: var(--font-family-base);
       display: block;
       width: 100%;
       background-color: #f3f4f6;
@@ -171,6 +182,7 @@
     }
 
     .guide-title {
+      font-family: var(--font-family-base);
       font-size: 13px;
       font-weight: 700;
       color: var(--text-main);
@@ -252,6 +264,7 @@
     }
 
     .modal-content h3 {
+      font-family: var(--font-family-base);
       margin: 0 0 14px 0;
       color: var(--text-main);
       font-size: 17px;
@@ -259,6 +272,7 @@
     }
 
     .modal-steps {
+      font-family: var(--font-family-base);
       font-size: 13px;
       color: var(--text-sub);
       line-height: 1.7;
@@ -271,6 +285,7 @@
     }
 
     .modal-close {
+      font-family: var(--font-family-base);
       display: block;
       width: 100%;
       background: var(--primary-color);
@@ -289,7 +304,7 @@
 
   <div class="card">
     <!-- 1. 置中大標題 -->
-    <div class="main-title">NITORI 2026 美國行事曆</div>
+    <div class="main-title">NITORI 2026 美國研修行事曆</div>
     
     <!-- 2. 靠左對齊：C組標題與排程說明 -->
     <h2>C組 行程行事曆</h2>
@@ -303,7 +318,7 @@
 
     <!-- 3. 紅色時區注意事項 -->
     <div class="timezone-notice">
-      ⚠️️ 此行事曆顯示為美西時間，抵達美國後即會顯示正常時間。
+      ⚠ 此行事曆顯示為美西時間，抵達美國後即會顯示正常時間。
     </div>
 
     <!-- 1. iOS 專用訂閱按鈕 -->
@@ -356,7 +371,7 @@
   <!-- 刪除教學彈出視窗 -->
   <div id="deleteModal" class="modal-overlay" onclick="if(event.target===this)this.style.display='none'">
     <div class="modal-content">
-      <h3>🗑️ iPhone 如何取消訂閱此日曆？</h3>
+      <h3>🗑️ 如何清空此日曆？</h3>
       <ol class="modal-steps">
         <li>打開手機內建 <b>「行事曆」App</b></li>
         <li>點擊螢幕正下方中央的 <b>「行事曆」</b></li>
