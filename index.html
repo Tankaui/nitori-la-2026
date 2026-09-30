@@ -17,14 +17,14 @@
       align-items: center;
       min-height: 100vh;
       margin: 0;
-      padding: 24px;
+      padding: 20px;
     }
     .card {
       background: #ffffff;
-      padding: 36px 28px;
-      border-radius: 20px;
+      padding: 36px 26px;
+      border-radius: 22px;
       box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-      max-width: 380px;
+      max-width: 390px;
       width: 100%;
       text-align: center;
     }
@@ -48,13 +48,10 @@
       color: #4b5563;
       font-size: 14px;
       line-height: 1.6;
-      margin: 0 0 28px 0;
+      margin: 0 0 26px 0;
     }
-    .btn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 8px;
+    .btn-main {
+      display: block;
       width: 100%;
       background-color: #0071e3;
       color: #ffffff;
@@ -64,23 +61,41 @@
       text-decoration: none;
       border-radius: 14px;
       box-shadow: 0 4px 14px rgba(0, 113, 227, 0.3);
-      cursor: pointer;
-      border: none;
       transition: all 0.2s ease;
+      margin-bottom: 14px;
     }
-    .btn:active {
+    .btn-main:active {
       transform: scale(0.98);
       background-color: #005bb5;
     }
-    .note {
+    .btn-settings {
+      display: block;
+      width: 100%;
+      background-color: #f3f4f6;
+      color: #4b5563;
+      padding: 12px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 12px;
+      transition: background 0.2s;
+    }
+    .btn-settings:active {
+      background-color: #e5e7eb;
+    }
+    .guide-box {
       font-size: 12px;
-      color: #8c95a6;
+      color: #6b7280;
       margin-top: 22px;
       line-height: 1.6;
       text-align: left;
-      background: #f8fafc;
-      padding: 12px 14px;
-      border-radius: 10px;
+      background: #f9fafb;
+      padding: 14px;
+      border-radius: 12px;
+      border: 1px solid #edf0f3;
+    }
+    .guide-box b {
+      color: #1f2937;
     }
   </style>
 </head>
@@ -88,44 +103,28 @@
 
   <div class="card">
     <div class="badge">NITORI 2026 美國研修</div>
-    <h2>C組 行事曆加入</h2>
-    <p> 10/5～10/12 全程考察行程、各期限提醒<br>10/11 洛杉磯市區觀光與返程航班。</p>
+    <h2>C組 專屬行程行事曆</h2>
+    <p>包含 10/5～10/12 全考察排程、各期限提醒<br>10/11 洛杉磯市區觀光與 回程BR0005 航班。</p>
 
-    <!-- 智慧跳轉按鈕 -->
-    <button id="addCalendarBtn" class="btn">
-      📅 加入行程至行事曆
-    </button>
+    <!-- 核心一鍵訂閱按鈕 -->
+    <a href="webcal://tankaui.github.io/nitori-la-2026/2026_LA_Seminar_Ready_To_Import.ics" class="btn-main">
+      📅 訂閱專屬行事曆
+    </a>
 
-    <div class="note">
-      <b>使用提醒：</b><br>
-      • <b>iPhone</b>：<br>點擊後會彈出系統視窗，點選「全部加入」即可。<br>
-      • <b>Android</b>：<br>點擊後將直接下載檔案，開啟後選 Google 日曆匯入。
+    <!-- 輔助前往系統設定按鈕（供事後快速刪除） -->
+    <a href="App-Prefs:root=ACCOUNT_SETTINGS" class="btn-settings">
+      ⚙️ 前往手機設定（管理 / 刪除訂閱）
+    </a>
+
+    <div class="guide-box">
+      <b>📌 iPhone 訂閱教學：</b><br>
+      1. 點擊「訂閱專屬行事曆」按鈕。<br>
+      2. 畫面彈出「加入訂閱行事曆」時，直接點擊 <b>「尋找」</b>。<br>
+      3. 確認行程名稱後點選 <b>「加入」</b>，即會在手機建立獨立日曆（不與私人行程混淆）。<br><br>
+      <b>🗑️ 研修結束後如何一鍵全刪：</b><br>
+      點擊上方「前往手機設定」按鈕 ➜ <b>行事曆</b> ➜ <b>已訂閱的行事曆</b> ➜ 點選此行程並按 <b>刪除帳號</b>，即可整本移除。
     </div>
   </div>
-
-  <script>
-    document.getElementById('addCalendarBtn').addEventListener('click', function() {
-      // 判斷是否為 iOS 裝置 (iPhone, iPad, iPod)
-      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || 
-                    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-
-      const domain = 'tankaui.github.io/nitori-la-2026';
-      const fileName = '2026_LA_Seminar_Ready_To_Import.ics';
-
-      if (isIOS) {
-        // iOS 使用 webcal:// 協定強制喚起系統行事曆存檔提示
-        window.location.href = 'webcal://' + domain + '/' + fileName;
-      } else {
-        // Android / PC 直接下載 .ics 檔案
-        const downloadLink = document.createElement('a');
-        downloadLink.href = 'https://' + domain + '/' + fileName;
-        downloadLink.download = fileName;
-        document.body.appendChild(downloadLink);
-        downloadLink.click();
-        document.body.removeChild(downloadLink);
-      }
-    });
-  </script>
 
 </body>
 </html>
