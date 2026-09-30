@@ -2,16 +2,30 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>2026 美國研修 C組行程</title>
   <style>
+    :root {
+      --primary-color: #0071e3;
+      --primary-hover: #005bb5;
+      --android-color: #2da44e;
+      --android-hover: #22863a;
+      --brand-green: #009E96;
+      --brand-green-bg: #E6F6F5;
+      --text-main: #111827;
+      --text-sub: #4b5563;
+      --bg-page: #f4f6f8;
+      --card-bg: #ffffff;
+    }
+
     * {
       box-sizing: border-box;
       -webkit-tap-highlight-color: transparent;
     }
+
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background-color: #f2f4f7;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      background-color: var(--bg-page);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -19,61 +33,107 @@
       margin: 0;
       padding: 20px;
     }
+
     .card {
-      background: #ffffff;
-      padding: 36px 26px;
-      border-radius: 22px;
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-      max-width: 390px;
+      background: var(--card-bg);
+      padding: 36px 24px;
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
+      max-width: 380px;
       width: 100%;
       text-align: center;
     }
+
     .badge {
-      display: inline-block;
-      background: #eef4ff;
-      color: #0056b3;
+      display: inline-flex;
+      align-items: center;
+      background: var(--brand-green-bg);
+      color: var(--brand-green);
       font-size: 13px;
       font-weight: 700;
-      padding: 5px 14px;
+      letter-spacing: 0.5px;
+      padding: 5px 12px;
       border-radius: 20px;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
+
     h2 {
-      margin: 0 0 10px 0;
-      color: #111827;
-      font-size: 22px;
+      margin: 0 0 12px 0;
+      color: var(--text-main);
+      font-size: 23px;
       font-weight: 700;
+      letter-spacing: -0.3px;
     }
-    p {
-      color: #4b5563;
+
+    .desc {
+      color: var(--text-sub);
       font-size: 14px;
       line-height: 1.6;
-      margin: 0 0 26px 0;
+      margin: 0 0 24px 0;
     }
+
+    .highlight-pill {
+      display: inline-block;
+      background: #f1f3f5;
+      color: #374151;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-weight: 500;
+      margin: 1px 0;
+    }
+
     .btn-main {
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
       width: 100%;
-      background-color: #0071e3;
+      background-color: var(--primary-color);
       color: #ffffff;
-      padding: 16px;
-      font-size: 17px;
+      padding: 15px;
+      font-size: 16px;
       font-weight: 600;
       text-decoration: none;
       border-radius: 14px;
-      box-shadow: 0 4px 14px rgba(0, 113, 227, 0.3);
+      box-shadow: 0 4px 12px rgba(0, 113, 227, 0.25);
       transition: all 0.2s ease;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
     }
+
     .btn-main:active {
       transform: scale(0.98);
-      background-color: #005bb5;
+      background-color: var(--primary-hover);
     }
+
+    .btn-android {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      background-color: var(--android-color);
+      color: #ffffff;
+      padding: 15px;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(45, 164, 78, 0.25);
+      transition: all 0.2s ease;
+      margin-bottom: 12px;
+    }
+
+    .btn-android:active {
+      transform: scale(0.98);
+      background-color: var(--android-hover);
+    }
+
     .btn-action {
       display: block;
       width: 100%;
       background-color: #f3f4f6;
-      color: #374151;
-      padding: 13px;
+      color: #4b5563;
+      padding: 12px;
       font-size: 14px;
       font-weight: 600;
       text-decoration: none;
@@ -82,60 +142,130 @@
       cursor: pointer;
       transition: background 0.2s;
     }
+
     .btn-action:active {
       background-color: #e5e7eb;
     }
+
     .guide-box {
-      font-size: 13px;
-      color: #4b5563;
-      margin-top: 22px;
-      line-height: 1.6;
+      margin-top: 24px;
       text-align: left;
-      background: #f9fafb;
+      background: #f8fafc;
       padding: 16px;
       border-radius: 14px;
-      border: 1px solid #edf0f3;
+      border: 1px solid #eef2f6;
     }
-    .guide-box b {
-      color: #111827;
+
+    .guide-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }
+
+    .guide-title:not(:first-child) {
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px dashed #e2e8f0;
+    }
+
+    .step-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: 13px;
+      color: var(--text-sub);
+      line-height: 1.6;
+    }
+
+    .step-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      margin-bottom: 5px;
+    }
+
+    .step-list li:last-child {
+      margin-bottom: 0;
+    }
+
+    .num-dot {
+      background: #e2e8f0;
+      color: #475569;
+      font-size: 11px;
+      font-weight: 700;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
     /* 彈出說明視窗 */
     .modal-overlay {
       display: none;
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0,0,0,0.5);
+      background: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
       justify-content: center;
       align-items: center;
-      padding: 20px;
+      padding: 24px;
       z-index: 100;
     }
+
     .modal-content {
-      background: #fff;
+      background: #ffffff;
       padding: 24px;
-      border-radius: 18px;
+      border-radius: 20px;
       max-width: 320px;
       width: 100%;
       text-align: left;
-      font-size: 14px;
-      line-height: 1.6;
-      color: #374151;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.16);
+      animation: modalFade 0.2s ease-out;
     }
+
+    @keyframes modalFade {
+      from { transform: scale(0.95); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
     .modal-content h3 {
-      margin-top: 0;
-      color: #111827;
+      margin: 0 0 14px 0;
+      color: var(--text-main);
       font-size: 17px;
+      font-weight: 700;
     }
+
+    .modal-steps {
+      font-size: 13px;
+      color: var(--text-sub);
+      line-height: 1.7;
+      padding-left: 20px;
+      margin: 0 0 18px 0;
+    }
+
+    .modal-steps li {
+      margin-bottom: 4px;
+    }
+
     .modal-close {
       display: block;
       width: 100%;
-      background: #0071e3;
+      background: var(--primary-color);
       color: #fff;
       text-align: center;
-      padding: 10px;
-      border-radius: 10px;
+      padding: 12px;
+      border-radius: 12px;
       font-weight: 600;
-      margin-top: 18px;
+      font-size: 15px;
       cursor: pointer;
       border: none;
     }
@@ -146,21 +276,58 @@
   <div class="card">
     <div class="badge">NITORI 2026 美國研修</div>
     <h2>C組 行程行事曆</h2>
-    <p>含 10/5～10/12 全程考察排程、各期限提醒<br>10/11 洛杉磯市區觀光與 回程BR0005 航班。</p>
+    
+    <div class="desc">
+      包含 10/5～10/12 全程考察排程<br>
+      <span class="highlight-pill">各期限提醒</span>
+      <span class="highlight-pill">10/11 洛杉磯市區觀光</span>
+      <span class="highlight-pill">回程 BR0005 航班</span>
+    </div>
 
-    <!-- 核心一鍵訂閱按鈕 -->
+    <!-- 1. iOS 專用訂閱按鈕 -->
     <a href="webcal://tankaui.github.io/nitori-la-2026/2026_LA_Seminar_Ready_To_Import.ics" class="btn-main">
-      📅 訂閱行程行事曆
+      <span>🍎</span> iOS 訂閱行事曆
     </a>
 
-    <!-- 刪除說明按鈕 -->
+    <!-- 2. Android 專用下載按鈕 -->
+    <a href="./2026_LA_Seminar_Ready_To_Import.ics" download="2026_USA_Seminar_C.ics" class="btn-android">
+      <span>🤖</span> Android 下載行事曆
+    </a>
+
+    <!-- 3. 刪除說明按鈕 -->
     <button class="btn-action" onclick="document.getElementById('deleteModal').style.display='flex'">
       🗑️ 如何刪除 / 取消訂閱？
     </button>
 
+    <!-- 加入方式導引 -->
     <div class="guide-box">
-      <b>📌 訂閱加入方式：</b><br>
-      ⑴　點擊上方藍色訂閱按鈕<br>⑵　彈出視窗點選 <b>「尋找」</b> <br>⑶　點選 <b>「加入」</b>，即會在手機建立獨立日曆。
+      <div class="guide-title">
+        <span>🍎</span> iPhone 加入方式
+      </div>
+      <ul class="step-list">
+        <li>
+          <span class="num-dot">1</span>
+          <span>點選藍色 <b>「iOS 訂閱行事曆」</b></span>
+        </li>
+        <li>
+          <span class="num-dot">2</span>
+          <span>視窗彈出後點選 <b>「尋找」</b> ➜ <b>「加入」</b> 即完成</span>
+        </li>
+      </ul>
+
+      <div class="guide-title">
+        <span>🤖</span> Android 加入方式
+      </div>
+      <ul class="step-list">
+        <li>
+          <span class="num-dot">1</span>
+          <span>點選綠色 <b>「Android 下載行事曆」</b> 下載檔案</span>
+        </li>
+        <li>
+          <span class="num-dot">2</span>
+          <span>點開下載完成通知，選以 <b>Google 日曆</b> 匯入儲存</span>
+        </li>
+      </ul>
     </div>
   </div>
 
@@ -168,10 +335,12 @@
   <div id="deleteModal" class="modal-overlay" onclick="if(event.target===this)this.style.display='none'">
     <div class="modal-content">
       <h3>🗑️ 如何清空此日曆？</h3>
-      1. 打開手機內建 <b>「行事曆」App</b>。<br>
-      2. 點擊螢幕下方中間的 <b>「行事曆」</b>。<br>
-      3. 找到「已訂閱」區塊，點選該研修行程旁的 <b>「ℹ️」</b> 圖示。<br>
-      4. 滑到最底點選 <b>「刪除行事曆」</b>，73 個行程便會全數清空。
+      <ol class="modal-steps">
+        <li>打開手機內建 <b>「行事曆」App</b></li>
+        <li>點擊螢幕正下方中央的 <b>「行事曆」</b></li>
+        <li>找到「已訂閱」區塊，點選行程旁的 <b>「ℹ️」</b> 圖示</li>
+        <li>滑到最底部點選 <b>「刪除行事曆」</b>，73 項行程即全數清空</li>
+      </ol>
       <button class="modal-close" onclick="document.getElementById('deleteModal').style.display='none'">我知道了</button>
     </div>
   </div>
