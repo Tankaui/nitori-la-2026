@@ -41,35 +41,35 @@
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
       max-width: 380px;
       width: 100%;
-      text-align: center;
     }
 
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      background: var(--brand-green-bg);
-      color: var(--brand-green);
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-      padding: 5px 12px;
-      border-radius: 20px;
-      margin-bottom: 14px;
-    }
-
-    h2 {
-      margin: 0 0 12px 0;
+    /* 大標題置中 */
+    .main-title {
       color: var(--text-main);
-      font-size: 23px;
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      text-align: center;
+      margin: 0 0 16px 0;
+    }
+
+    /* C組標題靠左對齊 */
+    h2 {
+      margin: 0 0 10px 0;
+      color: var(--text-main);
+      font-size: 20px;
       font-weight: 700;
       letter-spacing: -0.3px;
+      text-align: left;
     }
 
+    /* 說明區塊靠左對齊 */
     .desc {
       color: var(--text-sub);
       font-size: 14px;
       line-height: 1.6;
-      margin: 0 0 24px 0;
+      margin: 0 0 16px 0;
+      text-align: left;
     }
 
     .highlight-pill {
@@ -79,7 +79,21 @@
       padding: 2px 8px;
       border-radius: 6px;
       font-weight: 500;
-      margin: 1px 0;
+      margin: 2px 0;
+    }
+
+    /* 紅色時區注意事項 */
+    .timezone-notice {
+      color: #dc2626;
+      background-color: #fef2f2;
+      border: 1px solid #fee2e2;
+      padding: 10px 12px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 1.5;
+      text-align: left;
+      margin-bottom: 24px;
     }
 
     .btn-main {
@@ -274,7 +288,10 @@
 <body>
 
   <div class="card">
-    <div class="badge">NITORI 2026 美國研修</div>
+    <!-- 1. 置中大標題 -->
+    <div class="main-title">NITORI 2026 美國行事曆</div>
+    
+    <!-- 2. 靠左對齊：C組標題與排程說明 -->
     <h2>C組 行程行事曆</h2>
     
     <div class="desc">
@@ -282,6 +299,11 @@
       <span class="highlight-pill">各視察注意事項及期限提醒</span><br>
       <span class="highlight-pill">10/11 洛杉磯市區觀光</span><br>
       <span class="highlight-pill">回程 BR0005 航班</span>
+    </div>
+
+    <!-- 3. 紅色時區注意事項 -->
+    <div class="timezone-notice">
+      ⚠️️ 此行事曆顯示為美西時間，抵達美國後即會顯示正常時間。
     </div>
 
     <!-- 1. iOS 專用訂閱按鈕 -->
@@ -334,7 +356,7 @@
   <!-- 刪除教學彈出視窗 -->
   <div id="deleteModal" class="modal-overlay" onclick="if(event.target===this)this.style.display='none'">
     <div class="modal-content">
-      <h3>🗑️ 如何清空此日曆？</h3>
+      <h3>🗑️ iPhone 如何取消訂閱此日曆？</h3>
       <ol class="modal-steps">
         <li>打開手機內建 <b>「行事曆」App</b></li>
         <li>點擊螢幕正下方中央的 <b>「行事曆」</b></li>
