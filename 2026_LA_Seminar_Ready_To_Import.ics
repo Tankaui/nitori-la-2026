@@ -107,7 +107,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261005T162500
 DTEND;TZID=America/Los_Angeles:20261005T164500
 SUMMARY:移動前往飯店
-LOCATION:Ralphs -> Hotel
+LOCATION:Ralphs -> DoubleTree by Hilton Hotel Ontario Airport (222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:專車移動至飯店。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -123,7 +123,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261005T164500
 DTEND;TZID=America/Los_Angeles:20261005T181500
 SUMMARY:抵達飯店 / 展示解說與開訓講義①
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:16:45抵達洗手間休息、17:00展示解說、17:15講義①、17:55旅行社介紹、18:00事務局連絡。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -139,7 +139,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261005T181500
 DTEND;TZID=America/Los_Angeles:20261005T200000
 SUMMARY:各自用餐與小組討論 (20:00閉門)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:宴會廳開放、各自用餐與小組討論。20:00宴會廳關閉。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -155,7 +155,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261006T073000
 DTEND;TZID=America/Los_Angeles:20261006T082000
 SUMMARY:晨間交流 (任意參加)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:07:30宴會廳開放、晨間交流 Lounge。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -171,7 +171,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261006T082000
 DTEND;TZID=America/Los_Angeles:20261006T103500
 SUMMARY:團長講話① & 講義② (FORMAT/DS、樣品屋)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:08:20團長講話①、09:20講義②(75分鐘)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -187,7 +187,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261006T103500
 DTEND;TZID=America/Los_Angeles:20261006T110500
 SUMMARY:小組會議 (班MT) & 休息
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:10:35-10:50小組會議、10:50-11:05休息。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -203,7 +203,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261006T110500
 DTEND;TZID=America/Los_Angeles:20261006T114000
 SUMMARY:飯店出發 / 移動前往樣品屋
-LOCATION:Hotel -> Corona Model Home
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport -> Corona Model Home
 DESCRIPTION:專車出發前往科羅納新興住宅區樣品屋。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -234,7 +234,7 @@ UID:usa-seminar-2026-c-final-11@nitori.co.jp
 DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261006T123500
 DTEND;TZID=America/Los_Angeles:20261006T132500
-SUMMARY:午餐：在SC自理
+SUMMARY:午餐：SC 內自理
 LOCATION:Shopping Center
 DESCRIPTION:午餐時間(50分鐘)。
 STATUS:CONFIRMED
@@ -315,7 +315,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261006T181000
 DTEND;TZID=America/Los_Angeles:20261006T183000
 SUMMARY:移動返回飯店
-LOCATION:Target -> Hotel
+LOCATION:Target -> DoubleTree by Hilton Hotel Ontario Airport (222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:專車移動回飯店(車上事務局連絡)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -331,7 +331,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261006T183000
 DTEND;TZID=America/Los_Angeles:20261006T220000
 SUMMARY:宴會廳：各組用餐與討論 (22:00閉門)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:晚間小組分析研討與各自用餐。22:00宴會廳關閉。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -347,7 +347,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261007T070000
 DTEND;TZID=America/Los_Angeles:20261007T080000
 SUMMARY:圓桌座談會 (車座座談会，任意參加)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:早晨圓桌座談會。未參加者08:00開放進場。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -363,7 +363,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261007T082000
 DTEND;TZID=America/Los_Angeles:20261007T100000
 SUMMARY:領隊講話① & 講義③
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:08:20領隊講話①、08:30講義③(90分，含休息10分)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -379,7 +379,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261007T101000
 DTEND;TZID=America/Los_Angeles:20261007T104000
 SUMMARY:小組會議 (班MT) & 休息
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:10:10-10:25小組會議、10:25-10:40休息。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -395,7 +395,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261007T104000
 DTEND;TZID=America/Los_Angeles:20261007T105500
 SUMMARY:飯店出發 / 移動前往 Victoria Gardens
-LOCATION:Hotel -> Victoria Gardens
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport -> Victoria Gardens
 DESCRIPTION:專車出發前往 Victoria Gardens。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -491,7 +491,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261007T164000
 DTEND;TZID=America/Los_Angeles:20261007T165500
 SUMMARY:移動返回飯店
-LOCATION:Home Depot -> Hotel
+LOCATION:Home Depot -> DoubleTree by Hilton Hotel Ontario Airport (222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:專車移動回飯店(車上事務局連絡)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -507,7 +507,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261007T165500
 DTEND;TZID=America/Los_Angeles:20261007T220000
 SUMMARY:宴會廳：研討與用餐 (★20:30 中間報告截止)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:晚間小組分析研討。注意：20:30 中間報告提出截止！22:00宴會廳關閉。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -523,7 +523,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261008T073000
 DTEND;TZID=America/Los_Angeles:20261008T082000
 SUMMARY:晨間交流 (任意參加)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:07:30宴會廳開放、晨間交流 Lounge。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -539,7 +539,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261008T082000
 DTEND;TZID=America/Los_Angeles:20261008T095000
 SUMMARY:領隊講話②、講義④、事務局連絡(SCP解說)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:08:20領隊講話②、08:40講義④、09:35事務局連絡(SCP解說)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -555,7 +555,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261008T095000
 DTEND;TZID=America/Los_Angeles:20261008T102000
 SUMMARY:小組會議 (班MT) & 休息
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:09:50-10:05小組會議、10:05-10:20休息。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -571,7 +571,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261008T102000
 DTEND;TZID=America/Los_Angeles:20261008T103500
 SUMMARY:飯店出發 / 移動前往 Dollar General
-LOCATION:Hotel -> Dollar General
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport -> Dollar General
 DESCRIPTION:專車出發前往 Dollar General。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -667,7 +667,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261008T162500
 DTEND;TZID=America/Los_Angeles:20261008T172500
 SUMMARY:移動返回飯店
-LOCATION:South Coast Plaza -> Hotel
+LOCATION:South Coast Plaza -> DoubleTree by Hilton Hotel Ontario Airport (222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:專車移動回飯店(車上事務局連絡，車程60分)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -683,7 +683,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261008T172500
 DTEND;TZID=America/Los_Angeles:20261008T220000
 SUMMARY:宴會廳：研討與用餐 (22:00閉門)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:晚間小組分析研討與用餐。22:00宴會廳關閉。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -699,7 +699,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261009T073000
 DTEND;TZID=America/Los_Angeles:20261009T082000
 SUMMARY:晨間交流 (任意參加)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:07:30宴會廳開放、晨間交流 Lounge。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -715,7 +715,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261009T082000
 DTEND;TZID=America/Los_Angeles:20261009T094000
 SUMMARY:領隊講話④ & 講義⑤
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:08:20領隊講話④、08:30講義⑤(70分)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -731,7 +731,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261009T094000
 DTEND;TZID=America/Los_Angeles:20261009T101000
 SUMMARY:小組會議 (班MT) & 休息
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:09:40-09:55小組會議、09:55-10:10休息。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -747,7 +747,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261009T101000
 DTEND;TZID=America/Los_Angeles:20261009T103500
 SUMMARY:飯店出發 / 移動前往 Walmart
-LOCATION:Hotel -> Walmart
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport -> Walmart
 DESCRIPTION:專車出發前往 Walmart。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -794,7 +794,7 @@ UID:usa-seminar-2026-c-final-46@nitori.co.jp
 DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261009T120000
 DTEND;TZID=America/Los_Angeles:20261009T125000
-SUMMARY:午餐：在SC自理
+SUMMARY:午餐：SC 內自理
 LOCATION:Shopping Center
 DESCRIPTION:午餐時間(50分)。
 STATUS:CONFIRMED
@@ -875,7 +875,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261009T151000
 DTEND;TZID=America/Los_Angeles:20261009T153000
 SUMMARY:移動返回飯店
-LOCATION:Michaels/HomeGoods -> Hotel
+LOCATION:Michaels/HomeGoods -> DoubleTree by Hilton Hotel Ontario Airport (222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:專車移動回飯店(車上事務局連絡，20分)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -891,7 +891,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261009T153000
 DTEND;TZID=America/Los_Angeles:20261009T220000
 SUMMARY:宴會廳：總結研討 (★20:30課題截止 / ★21:30時裝名單截止)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:最終發表前研討。注意：20:30 課題提出截止！21:30 時裝競賽名單截止！22:00 關閉。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -907,7 +907,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T073000
 DTEND;TZID=America/Los_Angeles:20261010T080000
 SUMMARY:各組討論 (任意參加)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:07:30宴會廳開放、各組討論。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -923,7 +923,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T080000
 DTEND;TZID=America/Los_Angeles:20261010T083000
 SUMMARY:講義⑧ (歸國後的你)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:講義⑧「帰国後のあなたのために」(30分)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -939,7 +939,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T083000
 DTEND;TZID=America/Los_Angeles:20261010T084500
 SUMMARY:飯店停車場拍攝團體照
-LOCATION:Hotel Parking
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (停車場, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:於飯店停車場拍攝全員合照(15分)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -955,7 +955,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T084500
 DTEND;TZID=America/Los_Angeles:20261010T090500
 SUMMARY:引導、場地佈置與休息
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:發表會場準備與指引。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -971,7 +971,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T090500
 DTEND;TZID=America/Los_Angeles:20261010T113000
 SUMMARY:成果發表 預選
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:各品種代表組選拔。發表前每人決意發表30秒、組發表5分、講師FB 2分。結束之組別進入午餐。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -987,7 +987,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T113000
 DTEND;TZID=America/Los_Angeles:20261010T123000
 SUMMARY:午餐 (大會提供)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:午餐時間(大會提供午餐)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1003,7 +1003,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T123000
 DTEND;TZID=America/Los_Angeles:20261010T143500
 SUMMARY:成果發表 決賽
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:8組決賽品種代表發表(每組5分發表+5分講評，途中含休息)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1019,7 +1019,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T143500
 DTEND;TZID=America/Los_Angeles:20261010T152500
 SUMMARY:休息、表揚典禮與總評
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:14:35休息、14:55表揚典禮、15:10大會總評。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1035,7 +1035,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T152500
 DTEND;TZID=America/Los_Angeles:20261010T155500
 SUMMARY:團長講話②
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:團長講話②(30分)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1051,7 +1051,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T155500
 DTEND;TZID=America/Los_Angeles:20261010T171500
 SUMMARY:休息、回顧檢討與問卷填寫
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:15:55休息、16:10回顧檢討(含問卷輸入)、17:00休息。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1067,7 +1067,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T171500
 DTEND;TZID=America/Los_Angeles:20261010T180500
 SUMMARY:時裝競賽 (Fashion Contest)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:時裝競賽發表(50分)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1083,7 +1083,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T180500
 DTEND;TZID=America/Los_Angeles:20261010T181500
 SUMMARY:事務局連絡與移動
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:事務局最後連絡、晚會準備。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1099,7 +1099,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T181500
 DTEND;TZID=America/Los_Angeles:20261010T201500
 SUMMARY:全體交流會 (懇親晚會)
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:全體成員交流晚宴、閉幕慶祝(120分)。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1115,7 +1115,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261010T201500
 DTEND;TZID=America/Los_Angeles:20261010T203000
 SUMMARY:完全撤場
-LOCATION:Hotel Banquet
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:20:30 全體完全撤收。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1131,7 +1131,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261011T085000
 DTEND;TZID=America/Los_Angeles:20261011T090000
 SUMMARY:市區觀光集合 (巴士停車場 8:50集合)
-LOCATION:Hotel Bus Parking
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (巴士停車場, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:洛杉磯市區觀光一日遊（含導遊，US$80）。請帶水、穿好走的鞋。8:50集合，9:00準時發車。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1180,13 +1180,7 @@ DTSTART;TZID=America/Los_Angeles:20261011T124000
 DTEND;TZID=America/Los_Angeles:20261011T143000
 SUMMARY:景點：ORIGINAL FARMER'S MARKET & The Grove (自由活動/自理午餐)
 LOCATION:The Original Farmers Market, Los Angeles
-DESCRIPTION:自由活動與午餐（停留110分）。
-【周邊看點與私服採買(已過時裝競賽，純個人購物)】
-1. Farmers Market：1934年創立，熟食與青空市集
-2. The Grove：約50家知名服飾雜貨、Nordstrom百貨(名牌服飾推薦)
-3. Ross Dress for Less：名牌服飾日用品平價清倉(超低折扣撿便宜、挖寶首選)
-4. Whole Foods Market：名人愛用高級有機超市
-5. Trader Joe's：加州超人氣平價有機超市
+DESCRIPTION:自由活動與午餐（停留110分）。\n【周邊看點與私服採買(已過時裝競賽，純個人購物)】\n1. Farmers Market：1934年創立，熟食與青空市集\n2. The Grove：約50家知名服飾雜貨、Nordstrom百貨(名牌服飾推薦)\n3. Ross Dress for Less：名牌服飾日用品平價清倉(超低折扣撿便宜、挖寶首選)\n4. Whole Foods Market：名人愛用高級有機超市\n5. Trader Joe's：加州超人氣平價有機超市
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -1217,7 +1211,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261011T191500
 DTEND;TZID=America/Los_Angeles:20261011T193000
 SUMMARY:返抵飯店
-LOCATION:Hotel
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport (222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:市區觀光專車返抵飯店。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1233,7 +1227,7 @@ DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261012T063000
 DTEND;TZID=America/Los_Angeles:20261012T080000
 SUMMARY:飯店退房出發前往 LAX (搭乘 BR0005)
-LOCATION:Hotel Lobby -> LAX
+LOCATION:DoubleTree by Hilton Hotel Ontario Airport -> LAX
 DESCRIPTION:06:30 飯店辦理退房出發，搭乘專車前往洛杉磯國際機場(LAX)。確認研修問卷輸入完成，搭乘長榮航空 BR0005 返台。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
