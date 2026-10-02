@@ -33,26 +33,10 @@ END:STANDARD
 END:VTIMEZONE
 X-WR-CALNAME:2026秋季美國研修-C組完整行程(含BR0006/觀光/BR0005)
 BEGIN:VEVENT
-UID:usa-seminar-2026-c-final-checkin@nitori.co.jp
-DTSTAMP:20260930T081245Z
-DTSTART;TZID:Asia/Taipei:20261003T101000
-DTEND;TZID:Asia/Taipei:20261003T104000
-SUMMARY:長榮航空 BR0006 網路報到 / 線上免費劃位開放 (起飛前48小時)
-LOCATION:長榮航空官網 / App
-DESCRIPTION:長榮航空 BR0006 班機（10/5 10:10 起飛）起飛前 48 小時網路報到準時開放！這是最推薦的登入時間。如果你購買的是無法提前免費選位的經濟艙（基本/輕省票價），此時登入長榮網路報到系統，絕大多數的標準座位都會轉為免費開放，建議設定鬧鐘在 10:10 登入搶好座位。
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-tpe-meet@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:Asia/Taipei:20261005T075000
-DTEND;TZID:Asia/Taipei:20261005T083000
+DTSTART;TZID=Asia/Taipei:20261005T075000
+DTEND;TZID=Asia/Taipei:20261005T083000
 SUMMARY:桃園國際機場集合 / 團體報到
 LOCATION:桃園國際機場 第二航廈
 DESCRIPTION:07:50 於桃園國際機場第二航廈集合完畢。辦理團體報到、行李託運與行前確認。務必隨身攜帶護照與美簽/ESTA。
@@ -72,8 +56,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-flight-br6@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:Asia/Taipei:20261005T101000
-DTEND;TZID:America/Los_Angeles:20261005T071500
+DTSTART;TZID=Asia/Taipei:20261005T101000
+DTEND;TZID=America/Los_Angeles:20261005T071500
 SUMMARY:長榮航空 BR0006 起飛 (TPE -> LAX)
 LOCATION:桃園國際機場 第二航廈 -> 洛杉磯國際機場 (LAX)
 DESCRIPTION:搭乘長榮航空 BR0006 班機飛往洛杉磯。\n表定台北起飛時間：10/5 10:10 (TPE 台灣時間)\n表定洛杉磯抵達時間：10/5 07:15 (LAX 美西夏令時間PDT)\n抵達後辦理入境通關、提領行李，預計 13:15 專車出發。
@@ -88,8 +72,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-1@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261005T131500
-DTEND;TZID:America/Los_Angeles:20261005T154500
+DTSTART;TZID=America/Los_Angeles:20261005T131500
+DTEND;TZID=America/Los_Angeles:20261005T154500
 SUMMARY:LAX 出發 / 移動前往 Ralphs
 LOCATION:LAX -> Ralphs
 DESCRIPTION:搭乘專車前往首站。務必確認護照、錢包、手機(2支)已妥善放進包包，車內僅能攜帶無色飲品。
@@ -104,8 +88,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-2@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261005T154500
-DTEND;TZID:America/Los_Angeles:20261005T162500
+DTSTART;TZID=America/Los_Angeles:20261005T154500
+DTEND;TZID=America/Los_Angeles:20261005T162500
 SUMMARY:考察與採買：Ralphs (SSM)
 LOCATION:Ralphs
 DESCRIPTION:第1個考察地點(SSM)。採買今天晚餐、明天早餐及一週份的水。定點觀察香蕉、穀片PB/NB價格與加州蔬果陳列。注意提早排隊結帳避免集合遲到。
@@ -120,8 +104,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-3@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261005T162500
-DTEND;TZID:America/Los_Angeles:20261005T164500
+DTSTART;TZID=America/Los_Angeles:20261005T162500
+DTEND;TZID=America/Los_Angeles:20261005T164500
 SUMMARY:移動前往飯店
 LOCATION:Ralphs -> DoubleTree by Hilton Hotel Ontario Airport (222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:專車移動至飯店。
@@ -136,8 +120,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-4@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261005T164500
-DTEND;TZID:America/Los_Angeles:20261005T181500
+DTSTART;TZID=America/Los_Angeles:20261005T164500
+DTEND;TZID=America/Los_Angeles:20261005T181500
 SUMMARY:抵達飯店 / 展示解說與開訓講義①
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:16:45抵達洗手間休息、17:00展示解說、17:15講義①、17:55旅行社介紹、18:00事務局連絡。
@@ -152,8 +136,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-5@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261005T181500
-DTEND;TZID:America/Los_Angeles:20261005T200000
+DTSTART;TZID=America/Los_Angeles:20261005T181500
+DTEND;TZID=America/Los_Angeles:20261005T200000
 SUMMARY:各自用餐與小組討論 (20:00閉門)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:宴會廳開放、各自用餐與小組討論。20:00宴會廳關閉。
@@ -168,8 +152,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-6@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261006T073000
-DTEND;TZID:America/Los_Angeles:20261006T082000
+DTSTART;TZID=America/Los_Angeles:20261006T073000
+DTEND;TZID=America/Los_Angeles:20261006T082000
 SUMMARY:晨間交流 (任意參加)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:07:30宴會廳開放、晨間交流 Lounge。
@@ -184,8 +168,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-7@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261006T082000
-DTEND;TZID:America/Los_Angeles:20261006T103500
+DTSTART;TZID=America/Los_Angeles:20261006T082000
+DTEND;TZID=America/Los_Angeles:20261006T103500
 SUMMARY:團長講話① & 講義② (FORMAT/DS、樣品屋)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:08:20團長講話①、09:20講義②(75分鐘)。
@@ -200,8 +184,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-8@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261006T103500
-DTEND;TZID:America/Los_Angeles:20261006T110500
+DTSTART;TZID=America/Los_Angeles:20261006T103500
+DTEND;TZID=America/Los_Angeles:20261006T110500
 SUMMARY:小組會議 (班MT) & 休息
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:10:35-10:50小組會議、10:50-11:05休息。
@@ -216,8 +200,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-9@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261006T110500
-DTEND;TZID:America/Los_Angeles:20261006T114000
+DTSTART;TZID=America/Los_Angeles:20261006T110500
+DTEND;TZID=America/Los_Angeles:20261006T114000
 SUMMARY:飯店出發 / 移動前往樣品屋
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport -> Corona Model Home
 DESCRIPTION:專車出發前往科羅納新興住宅區樣品屋。
@@ -232,8 +216,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-10@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261006T114000
-DTEND;TZID:America/Los_Angeles:20261006T122500
+DTSTART;TZID=America/Los_Angeles:20261006T114000
+DTEND;TZID=America/Los_Angeles:20261006T122500
 SUMMARY:考察：Model Home (樣品屋)
 LOCATION:Corona Model Home
 DESCRIPTION:參觀住宅新興區樣品屋(45分)。嚴守7大禁忌：不用屋內廁所、不踩草坪、不移動擺設、坐過復原抱枕、不帶走價目表、顧及其他客人。
@@ -248,8 +232,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-11@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261006T123500
-DTEND;TZID:America/Los_Angeles:20261006T132500
+DTSTART;TZID=America/Los_Angeles:20261006T123500
+DTEND;TZID=America/Los_Angeles:20261006T132500
 SUMMARY:午餐：SC 內自理
 LOCATION:Shopping Center
 DESCRIPTION:午餐時間(50分鐘)。
@@ -264,8 +248,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-12@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261006T132500
-DTEND;TZID:America/Los_Angeles:20261006T140000
+DTSTART;TZID=America/Los_Angeles:20261006T132500
+DTEND;TZID=America/Los_Angeles:20261006T140000
 SUMMARY:移動前往 Walmart
 LOCATION:SC -> Walmart
 DESCRIPTION:專車移動至 Walmart。
@@ -280,8 +264,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-13@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261006T140000
-DTEND;TZID:America/Los_Angeles:20261006T160000
+DTSTART;TZID=America/Los_Angeles:20261006T140000
+DTEND;TZID=America/Los_Angeles:20261006T160000
 SUMMARY:考察：Walmart① (SuC/DS)
 LOCATION:Walmart
 DESCRIPTION:標準型Supercenter(120分)。推車繞主通道，觀察PB (Mainstays, Better Homes & Gardens)、磁石賣場、BOPIS與端架。保留購物收據以備門口查驗。
@@ -296,8 +280,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-14@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261006T160000
-DTEND;TZID:America/Los_Angeles:20261006T162000
+DTSTART;TZID=America/Los_Angeles:20261006T160000
+DTEND;TZID=America/Los_Angeles:20261006T162000
 SUMMARY:移動前往 Target
 LOCATION:Walmart -> Target
 DESCRIPTION:專車移動至 Target。
@@ -312,8 +296,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-15@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261006T162000
-DTEND;TZID:America/Los_Angeles:20261006T181000
+DTSTART;TZID=America/Los_Angeles:20261006T162000
+DTEND;TZID=America/Los_Angeles:20261006T181000
 SUMMARY:考察：Target① (DS)
 LOCATION:Target
 DESCRIPTION:推車考察(110分)。確認生活雜貨與居家PB (Room Essentials, Threshold)、店中店 (Ulta Beauty, CVS)、App室內尋物與Drive Up。不可空手或明顯記錄筆記。
@@ -328,8 +312,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-16@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261006T181000
-DTEND;TZID:America/Los_Angeles:20261006T183000
+DTSTART;TZID=America/Los_Angeles:20261006T181000
+DTEND;TZID=America/Los_Angeles:20261006T183000
 SUMMARY:移動返回飯店
 LOCATION:Target -> DoubleTree by Hilton Hotel Ontario Airport (222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:專車移動回飯店(車上事務局連絡)。
@@ -344,8 +328,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-17@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261006T183000
-DTEND;TZID:America/Los_Angeles:20261006T220000
+DTSTART;TZID=America/Los_Angeles:20261006T183000
+DTEND;TZID=America/Los_Angeles:20261006T220000
 SUMMARY:宴會廳：各組用餐與討論 (22:00閉門)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:晚間小組分析研討與各自用餐。22:00宴會廳關閉。
@@ -360,8 +344,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-18@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261007T070000
-DTEND;TZID:America/Los_Angeles:20261007T080000
+DTSTART;TZID=America/Los_Angeles:20261007T070000
+DTEND;TZID=America/Los_Angeles:20261007T080000
 SUMMARY:圓桌座談會 (車座座談会，任意參加)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:早晨圓桌座談會。未參加者08:00開放進場。
@@ -376,8 +360,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-19@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261007T082000
-DTEND;TZID:America/Los_Angeles:20261007T100000
+DTSTART;TZID=America/Los_Angeles:20261007T082000
+DTEND;TZID=America/Los_Angeles:20261007T100000
 SUMMARY:領隊講話① & 講義③
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:08:20領隊講話①、08:30講義③(90分，含休息10分)。
@@ -392,8 +376,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-20@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261007T101000
-DTEND;TZID:America/Los_Angeles:20261007T104000
+DTSTART;TZID=America/Los_Angeles:20261007T101000
+DTEND;TZID=America/Los_Angeles:20261007T104000
 SUMMARY:小組會議 (班MT) & 休息
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:10:10-10:25小組會議、10:25-10:40休息。
@@ -408,8 +392,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-21@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261007T104000
-DTEND;TZID:America/Los_Angeles:20261007T105500
+DTSTART;TZID=America/Los_Angeles:20261007T104000
+DTEND;TZID=America/Los_Angeles:20261007T105500
 SUMMARY:飯店出發 / 移動前往 Victoria Gardens
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport -> Victoria Gardens
 DESCRIPTION:專車出發前往 Victoria Gardens。
@@ -424,8 +408,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-22@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261007T105500
-DTEND;TZID:America/Los_Angeles:20261007T131000
+DTSTART;TZID=America/Los_Angeles:20261007T105500
+DTEND;TZID=America/Los_Angeles:20261007T131000
 SUMMARY:考察：Victoria Gardens (SRSC) (含午餐)
 LOCATION:Victoria Gardens
 DESCRIPTION:考察 Macy's (Dept)、JC Penney (GMS)、Williams Sonoma、Pottery Barn (HFuS)。含45分鐘自由用餐。繞一圈約需20分鐘，注意準時返回巴士。\n【👔時裝競賽推薦採買點①】Macy's 百貨與 JC Penney 綜合百貨！服飾、配件、襯衫西裝與風格單品齊全且常有特價折扣。時間充裕(135分含午餐)，建議把握此站挑選參賽主力穿搭！
@@ -440,8 +424,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-23@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261007T131000
-DTEND;TZID:America/Los_Angeles:20261007T134500
+DTSTART;TZID=America/Los_Angeles:20261007T131000
+DTEND;TZID=America/Los_Angeles:20261007T134500
 SUMMARY:移動前往 IKEA
 LOCATION:Victoria Gardens -> IKEA
 DESCRIPTION:專車移動至 IKEA。
@@ -456,8 +440,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-24@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261007T134500
-DTEND;TZID:America/Los_Angeles:20261007T153000
+DTSTART;TZID=America/Los_Angeles:20261007T134500
+DTEND;TZID=America/Los_Angeles:20261007T153000
 SUMMARY:考察：IKEA (HFuS)
 LOCATION:IKEA
 DESCRIPTION:全球家居龍頭(105分)。觀察強制單向動線控制、情境展示間(Room)生活風格提案、全球標準化機制。盤點時以手指長度等束為單位提升效率。
@@ -472,8 +456,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-25@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261007T153000
-DTEND;TZID:America/Los_Angeles:20261007T160500
+DTSTART;TZID=America/Los_Angeles:20261007T153000
+DTEND;TZID=America/Los_Angeles:20261007T160500
 SUMMARY:移動前往 Home Depot
 LOCATION:IKEA -> Home Depot
 DESCRIPTION:專車移動至 Home Depot。
@@ -488,8 +472,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-26@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261007T160500
-DTEND;TZID:America/Los_Angeles:20261007T164000
+DTSTART;TZID=America/Los_Angeles:20261007T160500
+DTEND;TZID=America/Los_Angeles:20261007T164000
 SUMMARY:考察：Home Depot (HI)
 LOCATION:Home Depot
 DESCRIPTION:家居修繕(HI)業態(35分)。體驗足以建造一整棟房子的商品深度、DX削減後場工時使接客服務高達83%、BODFS工地配送機制。請勿無目的持續詢問店員。
@@ -504,8 +488,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-27@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261007T164000
-DTEND;TZID:America/Los_Angeles:20261007T165500
+DTSTART;TZID=America/Los_Angeles:20261007T164000
+DTEND;TZID=America/Los_Angeles:20261007T165500
 SUMMARY:移動返回飯店
 LOCATION:Home Depot -> DoubleTree by Hilton Hotel Ontario Airport (222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:專車移動回飯店(車上事務局連絡)。
@@ -520,8 +504,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-28@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261007T165500
-DTEND;TZID:America/Los_Angeles:20261007T220000
+DTSTART;TZID=America/Los_Angeles:20261007T165500
+DTEND;TZID=America/Los_Angeles:20261007T220000
 SUMMARY:宴會廳：研討與用餐 (★20:30 中間報告截止)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:晚間小組分析研討。注意：20:30 中間報告提出截止！22:00宴會廳關閉。
@@ -536,8 +520,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-29@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261008T073000
-DTEND;TZID:America/Los_Angeles:20261008T082000
+DTSTART;TZID=America/Los_Angeles:20261008T073000
+DTEND;TZID=America/Los_Angeles:20261008T082000
 SUMMARY:晨間交流 (任意參加)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:07:30宴會廳開放、晨間交流 Lounge。
@@ -552,8 +536,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-30@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261008T082000
-DTEND;TZID:America/Los_Angeles:20261008T095000
+DTSTART;TZID=America/Los_Angeles:20261008T082000
+DTEND;TZID=America/Los_Angeles:20261008T095000
 SUMMARY:領隊講話②、講義④、事務局連絡(SCP解說)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:08:20領隊講話②、08:40講義④、09:35事務局連絡(SCP解說)。
@@ -568,8 +552,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-31@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261008T095000
-DTEND;TZID:America/Los_Angeles:20261008T102000
+DTSTART;TZID=America/Los_Angeles:20261008T095000
+DTEND;TZID=America/Los_Angeles:20261008T102000
 SUMMARY:小組會議 (班MT) & 休息
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:09:50-10:05小組會議、10:05-10:20休息。
@@ -584,8 +568,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-32@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261008T102000
-DTEND;TZID:America/Los_Angeles:20261008T103500
+DTSTART;TZID=America/Los_Angeles:20261008T102000
+DTEND;TZID=America/Los_Angeles:20261008T103500
 SUMMARY:飯店出發 / 移動前往 Dollar General
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport -> Dollar General
 DESCRIPTION:專車出發前往 Dollar General。
@@ -600,8 +584,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-33@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261008T103500
-DTEND;TZID:America/Los_Angeles:20261008T110000
+DTSTART;TZID=America/Los_Angeles:20261008T103500
+DTEND;TZID=America/Los_Angeles:20261008T110000
 SUMMARY:考察：Dollar General (VS)
 LOCATION:Dollar General
 DESCRIPTION:綜合雜貨店(VS)(25分)。觀察「餅乾切模」標準化、雙人員工運轉機制、貨架一體型價格標示、截取Walmart日用品熱銷品項。店內狹小嚴禁拍照或做筆記。
@@ -616,8 +600,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-34@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261008T110000
-DTEND;TZID:America/Los_Angeles:20261008T112000
+DTSTART;TZID=America/Los_Angeles:20261008T110000
+DTEND;TZID=America/Los_Angeles:20261008T112000
 SUMMARY:移動前往 Trader Joe's
 LOCATION:Dollar General -> Trader Joe's
 DESCRIPTION:專車移動至 Trader Joe's。
@@ -632,8 +616,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-35@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261008T112000
-DTEND;TZID:America/Los_Angeles:20261008T115500
+DTSTART;TZID=America/Los_Angeles:20261008T112000
+DTEND;TZID=America/Los_Angeles:20261008T115500
 SUMMARY:考察：Trader Joe's (限定品項商店)
 LOCATION:Trader Joe's
 DESCRIPTION:限定品項商店(35分)。80%天然有機PB、手寫POP、不推電商的實體店品牌價值與親切待客。
@@ -648,8 +632,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-36@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261008T115500
-DTEND;TZID:America/Los_Angeles:20261008T124500
+DTSTART;TZID=America/Los_Angeles:20261008T115500
+DTEND;TZID=America/Los_Angeles:20261008T124500
 SUMMARY:移動前往 South Coast Plaza
 LOCATION:Trader Joe's -> South Coast Plaza
 DESCRIPTION:專車移動至 South Coast Plaza (車程50分)。
@@ -664,8 +648,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-37@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261008T124500
-DTEND;TZID:America/Los_Angeles:20261008T162500
+DTSTART;TZID=America/Los_Angeles:20261008T124500
+DTEND;TZID=America/Los_Angeles:20261008T162500
 SUMMARY:考察：South Coast Plaza (SRSC) (含午餐)
 LOCATION:South Coast Plaza
 DESCRIPTION:全美頂級封閉式SRSC(220分，含45分午餐)。考察 Crate & Barrel, Pottery Barn, West Elm, CB2, Container Store, Best Buy, J.Jill 等。特別注意：進出 Crate & Barrel 與 CB2 需摘除識別證！\n【👔時裝競賽推薦採買點②・最後決戰商場】全美頂級大型商城，品牌最齊全、停留長達220分！若要走質感、剪裁或設計師品牌路線請在此完成採買(★明日10/9 21:30即截止參賽名單，此處為賽前最後大型服飾店)！
@@ -680,8 +664,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-38@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261008T162500
-DTEND;TZID:America/Los_Angeles:20261008T172500
+DTSTART;TZID=America/Los_Angeles:20261008T162500
+DTEND;TZID=America/Los_Angeles:20261008T172500
 SUMMARY:移動返回飯店
 LOCATION:South Coast Plaza -> DoubleTree by Hilton Hotel Ontario Airport (222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:專車移動回飯店(車上事務局連絡，車程60分)。
@@ -696,8 +680,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-39@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261008T172500
-DTEND;TZID:America/Los_Angeles:20261008T220000
+DTSTART;TZID=America/Los_Angeles:20261008T172500
+DTEND;TZID=America/Los_Angeles:20261008T220000
 SUMMARY:宴會廳：研討與用餐 (22:00閉門)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:晚間小組分析研討與用餐。22:00宴會廳關閉。
@@ -712,8 +696,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-40@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T073000
-DTEND;TZID:America/Los_Angeles:20261009T082000
+DTSTART;TZID=America/Los_Angeles:20261009T073000
+DTEND;TZID=America/Los_Angeles:20261009T082000
 SUMMARY:晨間交流 (任意參加)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:07:30宴會廳開放、晨間交流 Lounge。
@@ -728,8 +712,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-41@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T082000
-DTEND;TZID:America/Los_Angeles:20261009T094000
+DTSTART;TZID=America/Los_Angeles:20261009T082000
+DTEND;TZID=America/Los_Angeles:20261009T094000
 SUMMARY:領隊講話④ & 講義⑤
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:08:20領隊講話④、08:30講義⑤(70分)。
@@ -744,8 +728,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-42@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T094000
-DTEND;TZID:America/Los_Angeles:20261009T101000
+DTSTART;TZID=America/Los_Angeles:20261009T094000
+DTEND;TZID=America/Los_Angeles:20261009T101000
 SUMMARY:小組會議 (班MT) & 休息
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:09:40-09:55小組會議、09:55-10:10休息。
@@ -760,8 +744,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-43@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T101000
-DTEND;TZID:America/Los_Angeles:20261009T103500
+DTSTART;TZID=America/Los_Angeles:20261009T101000
+DTEND;TZID=America/Los_Angeles:20261009T103500
 SUMMARY:飯店出發 / 移動前往 Walmart
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport -> Walmart
 DESCRIPTION:專車出發前往 Walmart。
@@ -776,8 +760,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-44@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T103500
-DTEND;TZID:America/Los_Angeles:20261009T115000
+DTSTART;TZID=America/Los_Angeles:20261009T103500
+DTEND;TZID=America/Los_Angeles:20261009T115000
 SUMMARY:二次考察：Walmart② (SuC/DS)
 LOCATION:Walmart
 DESCRIPTION:第2次深入視察(75分)。針對端架陳列、品類布局、退貨櫃台/BOPIS操作及前期疑問進行查驗對比。
@@ -792,8 +776,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-45@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T115000
-DTEND;TZID:America/Los_Angeles:20261009T120000
+DTSTART;TZID=America/Los_Angeles:20261009T115000
+DTEND;TZID=America/Los_Angeles:20261009T120000
 SUMMARY:移動前往午餐 SC
 LOCATION:Walmart -> Lunch SC
 DESCRIPTION:專車移動至午餐地點。
@@ -808,8 +792,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-46@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T120000
-DTEND;TZID:America/Los_Angeles:20261009T125000
+DTSTART;TZID=America/Los_Angeles:20261009T120000
+DTEND;TZID=America/Los_Angeles:20261009T125000
 SUMMARY:午餐：SC 內自理
 LOCATION:Shopping Center
 DESCRIPTION:午餐時間(50分)。
@@ -824,8 +808,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-47@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T125000
-DTEND;TZID:America/Los_Angeles:20261009T132000
+DTSTART;TZID=America/Los_Angeles:20261009T125000
+DTEND;TZID=America/Los_Angeles:20261009T132000
 SUMMARY:移動前往 Target / Hobby Lobby
 LOCATION:Lunch SC -> Target / Hobby Lobby
 DESCRIPTION:專車移動至下一考察地點。
@@ -840,8 +824,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-48@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T132000
-DTEND;TZID:America/Los_Angeles:20261009T143000
+DTSTART;TZID=America/Los_Angeles:20261009T132000
+DTEND;TZID=America/Los_Angeles:20261009T143000
 SUMMARY:考察：Target② (DS) / Hobby Lobby (工藝SS)
 LOCATION:Target / Hobby Lobby
 DESCRIPTION:考察 Target② 與 Hobby Lobby (1,400坪風格陳列/節慶超前展開)(70分)。\n【👔時裝競賽道具急救站】若參賽穿搭需要特殊節慶飾品、派對道具、緞帶布料或趣味手作配件，可在 Hobby Lobby 把握最後補件機會！
@@ -856,8 +840,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-49@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T143000
-DTEND;TZID:America/Los_Angeles:20261009T143500
+DTSTART;TZID=America/Los_Angeles:20261009T143000
+DTEND;TZID=America/Los_Angeles:20261009T143500
 SUMMARY:移動至 Michaels / HomeGoods
 LOCATION:Target/Hobby Lobby -> Michaels/HomeGoods
 DESCRIPTION:專車短程移動(5分)。
@@ -872,8 +856,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-50@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T143500
-DTEND;TZID:America/Los_Angeles:20261009T151000
+DTSTART;TZID=America/Los_Angeles:20261009T143500
+DTEND;TZID=America/Los_Angeles:20261009T151000
 SUMMARY:考察：Michaels (工藝SS) / HomeGoods (OPS)
 LOCATION:Michaels / HomeGoods
 DESCRIPTION:考察 Michaels (品類陳列/半成品) 與 HomeGoods (單元管理/名牌出清店機制)(35分)。
@@ -888,8 +872,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-51@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T151000
-DTEND;TZID:America/Los_Angeles:20261009T153000
+DTSTART;TZID=America/Los_Angeles:20261009T151000
+DTEND;TZID=America/Los_Angeles:20261009T153000
 SUMMARY:移動返回飯店
 LOCATION:Michaels/HomeGoods -> DoubleTree by Hilton Hotel Ontario Airport (222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:專車移動回飯店(車上事務局連絡，20分)。
@@ -904,8 +888,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-52@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T153000
-DTEND;TZID:America/Los_Angeles:20261009T220000
+DTSTART;TZID=America/Los_Angeles:20261009T153000
+DTEND;TZID=America/Los_Angeles:20261009T220000
 SUMMARY:宴會廳：總結研討 (★20:30課題截止 / ★21:30時裝名單截止)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:最終發表前研討。注意：20:30 課題提出截止！21:30 時裝競賽名單截止！22:00 關閉。
@@ -920,8 +904,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-53@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T073000
-DTEND;TZID:America/Los_Angeles:20261010T080000
+DTSTART;TZID=America/Los_Angeles:20261010T073000
+DTEND;TZID=America/Los_Angeles:20261010T080000
 SUMMARY:各組討論 (任意參加)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:07:30宴會廳開放、各組討論。
@@ -936,8 +920,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-54@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T080000
-DTEND;TZID:America/Los_Angeles:20261010T083000
+DTSTART;TZID=America/Los_Angeles:20261010T080000
+DTEND;TZID=America/Los_Angeles:20261010T083000
 SUMMARY:講義⑧ (歸國後的你)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:講義⑧「帰国後のあなたのために」(30分)。
@@ -952,8 +936,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-55@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T083000
-DTEND;TZID:America/Los_Angeles:20261010T084500
+DTSTART;TZID=America/Los_Angeles:20261010T083000
+DTEND;TZID=America/Los_Angeles:20261010T084500
 SUMMARY:飯店停車場拍攝團體照
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (停車場, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:於飯店停車場拍攝全員合照(15分)。
@@ -968,8 +952,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-56@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T084500
-DTEND;TZID:America/Los_Angeles:20261010T090500
+DTSTART;TZID=America/Los_Angeles:20261010T084500
+DTEND;TZID=America/Los_Angeles:20261010T090500
 SUMMARY:引導、場地佈置與休息
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:發表會場準備與指引。
@@ -984,8 +968,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-57@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T090500
-DTEND;TZID:America/Los_Angeles:20261010T113000
+DTSTART;TZID=America/Los_Angeles:20261010T090500
+DTEND;TZID=America/Los_Angeles:20261010T113000
 SUMMARY:成果發表 預選
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:各品種代表組選拔。發表前每人決意發表30秒、組發表5分、講師FB 2分。結束之組別進入午餐。
@@ -1000,8 +984,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-58@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T113000
-DTEND;TZID:America/Los_Angeles:20261010T123000
+DTSTART;TZID=America/Los_Angeles:20261010T113000
+DTEND;TZID=America/Los_Angeles:20261010T123000
 SUMMARY:午餐 (大會提供)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:午餐時間(大會提供午餐)。
@@ -1016,8 +1000,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-59@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T123000
-DTEND;TZID:America/Los_Angeles:20261010T143500
+DTSTART;TZID=America/Los_Angeles:20261010T123000
+DTEND;TZID=America/Los_Angeles:20261010T143500
 SUMMARY:成果發表 決賽
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:8組決賽品種代表發表(每組5分發表+5分講評，途中含休息)。
@@ -1032,8 +1016,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-60@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T143500
-DTEND;TZID:America/Los_Angeles:20261010T152500
+DTSTART;TZID=America/Los_Angeles:20261010T143500
+DTEND;TZID=America/Los_Angeles:20261010T152500
 SUMMARY:休息、表揚典禮與總評
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:14:35休息、14:55表揚典禮、15:10大會總評。
@@ -1048,8 +1032,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-61@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T152500
-DTEND;TZID:America/Los_Angeles:20261010T155500
+DTSTART;TZID=America/Los_Angeles:20261010T152500
+DTEND;TZID=America/Los_Angeles:20261010T155500
 SUMMARY:團長講話②
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:團長講話②(30分)。
@@ -1064,8 +1048,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-62@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T155500
-DTEND;TZID:America/Los_Angeles:20261010T171500
+DTSTART;TZID=America/Los_Angeles:20261010T155500
+DTEND;TZID=America/Los_Angeles:20261010T171500
 SUMMARY:休息、回顧檢討與問卷填寫
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:15:55休息、16:10回顧檢討(含問卷輸入)、17:00休息。
@@ -1080,8 +1064,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-63@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T171500
-DTEND;TZID:America/Los_Angeles:20261010T180500
+DTSTART;TZID=America/Los_Angeles:20261010T171500
+DTEND;TZID=America/Los_Angeles:20261010T180500
 SUMMARY:時裝競賽 (Fashion Contest)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:時裝競賽發表(50分)。
@@ -1096,8 +1080,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-64@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T180500
-DTEND;TZID:America/Los_Angeles:20261010T181500
+DTSTART;TZID=America/Los_Angeles:20261010T180500
+DTEND;TZID=America/Los_Angeles:20261010T181500
 SUMMARY:事務局連絡與移動
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:事務局最後連絡、晚會準備。
@@ -1112,8 +1096,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-65@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T181500
-DTEND;TZID:America/Los_Angeles:20261010T201500
+DTSTART;TZID=America/Los_Angeles:20261010T181500
+DTEND;TZID=America/Los_Angeles:20261010T201500
 SUMMARY:全體交流會 (懇親晚會)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:全體成員交流晚宴、閉幕慶祝(120分)。
@@ -1128,8 +1112,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-66@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261010T201500
-DTEND;TZID:America/Los_Angeles:20261010T203000
+DTSTART;TZID=America/Los_Angeles:20261010T201500
+DTEND;TZID=America/Los_Angeles:20261010T203000
 SUMMARY:完全撤場
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:20:30 全體完全撤收。
@@ -1144,8 +1128,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-67@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261011T085000
-DTEND;TZID:America/Los_Angeles:20261011T090000
+DTSTART;TZID=America/Los_Angeles:20261011T085000
+DTEND;TZID=America/Los_Angeles:20261011T090000
 SUMMARY:市區觀光集合 (巴士停車場 8:50集合)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (巴士停車場, 222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:洛杉磯市區觀光一日遊（含導遊，US$80）。請帶水、穿好走的鞋。8:50集合，9:00準時發車。
@@ -1160,8 +1144,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-68@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261011T100000
-DTEND;TZID:America/Los_Angeles:20261011T103000
+DTSTART;TZID=America/Los_Angeles:20261011T100000
+DTEND;TZID=America/Los_Angeles:20261011T103000
 SUMMARY:景點：LA DODGER TEAM STORE
 LOCATION:LA Dodger Team Store
 DESCRIPTION:大谷翔平所屬之洛杉磯道奇隊官方專賣店（停留30分），販售球衣及限定周邊商品。
@@ -1176,8 +1160,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-69@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261011T110000
-DTEND;TZID:America/Los_Angeles:20261011T121000
+DTSTART;TZID=America/Los_Angeles:20261011T110000
+DTEND;TZID=America/Los_Angeles:20261011T121000
 SUMMARY:景點：HOLLYWOOD (好萊塢)
 LOCATION:Hollywood Walk of Fame / Dolby Theatre
 DESCRIPTION:好萊塢標誌遠眺、奧斯卡典禮杜比劇院、中國戲院手印星光大道（停留70分）。注意：街頭藝人合照索取小費、強推銷CD請堅決說「No, Thank you」；注意防竊扒手。
@@ -1192,11 +1176,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-70@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261011T124000
-DTEND;TZID:America/Los_Angeles:20261011T143000
+DTSTART;TZID=America/Los_Angeles:20261011T124000
+DTEND;TZID=America/Los_Angeles:20261011T143000
 SUMMARY:景點：ORIGINAL FARMER'S MARKET & The Grove (自由活動/自理午餐)
 LOCATION:The Original Farmers Market, Los Angeles
-DESCRIPTION:自由活動與午餐（停留110分）。\n【周邊看點與私服採買(已過時裝競賽，純個人購物)】\n1. Farmers Market：1934年創立，熟食與青空市集\n2. The Grove：約50家知名服飾雜貨、Nordstrom百貨(名牌服飾推薦)\n3. Ross Dress for Less：名牌服飾日用品平價清倉(超低折扣撿便宜、挖寶首選)\n4.開立高級有機超市\n5. Trader Joe's：加州超人氣平價有機超市
+DESCRIPTION:自由活動與午餐（停留110分）。\n【周邊看點與私服採買(已過時裝競賽，純個人購物)】\n1. Farmers Market：1934年創立，熟食與青空市集\n2. The Grove：約50家知名服飾雜貨、Nordstrom百貨(名牌服飾推薦)\n3. Ross Dress for Less：名牌服飾日用品平價清倉(超低折扣撿便宜、挖寶首選)\n4. Whole Foods Market：名人愛用高級有機超市\n5. Trader Joe's：加州超人氣平價有機超市
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -1208,8 +1192,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-71@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261011T151500
-DTEND;TZID:America/Los_Angeles:20261011T165500
+DTSTART;TZID=America/Los_Angeles:20261011T151500
+DTEND;TZID=America/Los_Angeles:20261011T165500
 SUMMARY:景點：SANTA MONICA PIER (聖塔莫尼卡碼頭)
 LOCATION:Santa Monica Pier
 DESCRIPTION:Route 66 終點站、海濱棧橋、摩天輪海灘、咖啡館與夕陽景觀（停留100分）。
@@ -1224,8 +1208,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-72@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261011T191500
-DTEND;TZID:America/Los_Angeles:20261011T193000
+DTSTART;TZID=America/Los_Angeles:20261011T191500
+DTEND;TZID=America/Los_Angeles:20261011T193000
 SUMMARY:返抵飯店
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (222 N Vineyard Ave, Ontario, CA 91764)
 DESCRIPTION:市區觀光專車返抵飯店。
@@ -1240,8 +1224,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-73@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261012T063000
-DTEND;TZID:America/Los_Angeles:20261012T080000
+DTSTART;TZID=America/Los_Angeles:20261012T063000
+DTEND;TZID=America/Los_Angeles:20261012T080000
 SUMMARY:飯店退房出發前往 LAX (搭乘 BR0005)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport -> LAX
 DESCRIPTION:06:30 飯店辦理退房出發，搭乘專車前往洛杉磯國際機場(LAX)。確認研修問卷輸入完成，搭乘長榮航空 BR0005 返台。
