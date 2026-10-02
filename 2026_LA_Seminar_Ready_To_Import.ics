@@ -39,7 +39,7 @@ DTSTART;TZID:Asia/Taipei:20261003T101000
 DTEND;TZID:Asia/Taipei:20261003T104000
 SUMMARY:長榮航空 BR0006 網路報到 / 線上免費劃位開放（起飛前48小時）
 LOCATION:長榮航空官方網站 / EVA AIR App
-DESCRIPTION:長榮航空 BR0006 班機（10/5 10:10 起飛）起飛前 48 小時網路報到準時開放！\n最推薦之登入搶位時間點。若購買無法提前免費選位之經濟艙票價，此時絕大多數標準座位皆會轉為免費開放，請立即登入系統劃位與辦理報到。
+DESCRIPTION:長榮航空 BR0006 班機（10/5 10:10 起飛）起飛前 48 小時網路報到準時開放！\n最推薦之登入搶位時間點。若購買無法提前免費選位之經濟艙票價，此時絕大多數標準座位皆會轉為免費開放，建議設定鬧鐘在 10:10 登入系統搶好座位與辦理報到。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -461,7 +461,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-24@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261007T153000
+DTSTART;TZID:America/Los_Angeles:20261007T134500
 DTEND;TZID:America/Los_Angeles:20261007T153000
 SUMMARY:考察：IKEA (HFuS)
 LOCATION:IKEA
@@ -637,7 +637,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-35@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261008T115500
+DTSTART;TZID:America/Los_Angeles:20261008T112000
 DTEND;TZID:America/Los_Angeles:20261008T115500
 SUMMARY:考察：Trader Joe's (限定品項商店)
 LOCATION:Trader Joe's
@@ -1185,7 +1185,7 @@ DTSTART;TZID:America/Los_Angeles:20261011T110000
 DTEND;TZID:America/Los_Angeles:20261011T121000
 SUMMARY:景點：HOLLYWOOD (好萊塢)
 LOCATION:Hollywood Walk of Fame / Dolby Theatre
-DESCRIPTION:好萊塢標誌遠眺、奧斯卡典料杜比劇院、中國戲院手印星光大道（停留70分）。注意：街頭藝人合照索取小費、強推銷CD請堅決說「No, Thank you」；注意防竊扒手。
+DESCRIPTION:好萊塢標誌遠眺、奧斯卡典禮杜比劇院、中國戲院手印星光大道（停留70分）。注意：街頭藝人合照索取小費、強推銷CD請堅決說「No, Thank you」；注意防竊扒手。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
