@@ -877,7 +877,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usa-seminar-2026-c-final-50@nitori.co.jp
 DTSTAMP:20260930T081245Z
-DTSTART;TZID:America/Los_Angeles:20261009T151000
+DTSTART;TZID:America/Los_Angeles:20261009T143500
 DTEND;TZID:America/Los_Angeles:20261009T151000
 SUMMARY:考察：Michaels (工藝SS) / HomeGoods (OPS)
 LOCATION:Michaels / HomeGoods
