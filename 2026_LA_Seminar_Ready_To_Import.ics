@@ -506,9 +506,9 @@ UID:usa-seminar-2026-c-final-28@nitori.co.jp
 DTSTAMP:20260930T081245Z
 DTSTART;TZID=America/Los_Angeles:20261007T165500
 DTEND;TZID=America/Los_Angeles:20261007T220000
-SUMMARY:宴會廳：研討與用餐 (★20:30 中間報告截止)
+SUMMARY:宴會廳：研討與用餐 (★20:00 中間報告截止)
 LOCATION:DoubleTree by Hilton Hotel Ontario Airport (宴會廳, 222 N Vineyard Ave, Ontario, CA 91764)
-DESCRIPTION:晚間小組分析研討。注意：20:30 中間報告提出截止！22:00宴會廳關閉。
+DESCRIPTION:晚間小組分析研討。注意：20:00 中間報告提出截止！22:00宴會廳關閉。
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
